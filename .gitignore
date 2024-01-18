@@ -1,8 +1,0 @@
-client/node_modules
-server/node_modules
-client/package-lock.json
-client/taildwind.config.js
-server/package-lock.json
-server/.env
-.editorconfig
-client/src/App.css
