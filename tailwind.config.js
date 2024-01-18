@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: "jit",
+  lightMode: "class",
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
     "./src/**/*.{js,jsx,ts,tsx}",
     "./src/**/**/*.{js,jsx,ts,tsx}",
     "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./Components/**/*.{js,ts,jsx,tsx}",
   ],
 
   theme: {

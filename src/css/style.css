@@ -1,15 +1,18 @@
 .gradient-background {
-  background: linear-gradient(300deg, rgba(0, 0, 84, 0.9), rgba(0, 0, 84, 0.7), #222160);
+  background: linear-gradient(
+    300deg,
+    rgba(0, 0, 84, 0.9),
+    rgba(0, 0, 84, 0.7),
+    #222160
+  );
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
-
 
 .html,
 body {
   overflow-x: hidden;
 }
-
 
 .order-columns {
   align-items: flex-start;
@@ -22,7 +25,6 @@ body {
   order: 2;
   align-content: flex-end;
 }
-
 
 .order-product-img {
   width: 30%;
@@ -55,7 +57,7 @@ body {
   @apply md:w-16 -left-full md:left-0;
 }
 
-.sidebar-collapse~#main {
+.sidebar-collapse ~ #main {
   @apply pl-0 md:pl-16;
 }
 
@@ -64,7 +66,7 @@ body {
   @apply hidden;
 }
 
-.tab-indicator>* {
+.tab-indicator > * {
   @apply pb-1 border-b-4 border-transparent text-lg font-medium text-gray-500 cursor-pointer;
 }
 
@@ -116,13 +118,13 @@ body {
   border: none;
   height: 70px;
   width: 70px;
-  background: #FAC800;
+  background: #fac800;
   padding: 14px;
   color: white;
 }
 
 #chatbot_toggle:hover {
-  background: #FFF8C4;
+  background: #fff8c4;
 }
 
 .line {
@@ -133,7 +135,7 @@ body {
 }
 
 .main-title {
-  background-color: #FAC800;
+  background-color: #fac800;
   font-size: x-large;
   font-weight: bold;
   display: flex;
@@ -141,14 +143,14 @@ body {
   color: #000054;
 }
 
-.main-title>div {
+.main-title > div {
   height: 65px;
   width: 70px;
   display: flex;
   margin-left: 8px;
 }
 
-.main-title>span {
+.main-title > span {
   margin: auto auto auto 8px;
 }
 
@@ -187,7 +189,7 @@ body {
 }
 
 .input-send svg {
-  fill: #FAC800;
+  fill: #fac800;
   margin: 11px 8px;
 }
 
@@ -249,7 +251,13 @@ body {
 
 /* Vendor hompage */
 .vendor-avatar {
-  width: 30% !important; 
+  width: 30% !important;
 }
 
 /* Shopping cart */
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
